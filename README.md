@@ -20,13 +20,20 @@ This study utilizes a computational data science approach to quantify the spatia
     * `Parnassius_Proportion_ErrorBars_2Eras.png` (Categorical emergence stacked bar charts)
 
 ## Data Sources
-Raw biological occurrence data was aggregated from [GBIF](https://www.gbif.org/) and heavily relies on the contributions of community scientists via platforms like iNaturalist, as well as digitized historical specimens from global entomological collections (e.g., the Frost Entomological Museum, the Florida Museum of Natural History, and the Natural History Museum in London). 
+Raw biological occurrence data was aggregated from [GBIF](https://www.gbif.org/) and heavily relies on the contributions of community scientists via platforms like iNaturalist, as well as digitized historical specimens from global entomological collections. 
 
 ## Requirements and Dependencies
 To reproduce this analysis, you will need **R** (version 4.0.0 or higher) and the following R packages:
 * `dplyr`
 * `ggplot2`
-* `stats`
+* `readr`
+* `tidyr`
+* `ggpubr`
+* `scales`
+* `lubridate`
+* `stringr`
+* `elevatr`
+* `sf`
 
 ## How to Run
 1. Clone this repository to your local machine.
